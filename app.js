@@ -16,7 +16,7 @@ const workingHoursMiddleware = (_req, res, next) => {
 };
 
 
-// Apply middleware for all routes
+// Apply middleware for all routesss
 app.use(workingHoursMiddleware);
 
 // Define routes for the pages
